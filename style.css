@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.partition {
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-info .profile-details {
+  margin-left: 20px;
+}
+
+.profile-details h2 {
+  margin-bottom: 5px;
+}
+
+.profile-details p {
+  margin-bottom: 0;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-info i {
+  margin-right: 10px;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.contact-info p {
+  margin: 0;
+  vertical-align: middle;
+}
+
+.experience, .education, .skills, .reference {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience .job-title, .education .degree, .skills .skill, .reference .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.experience .company, .education .institution, .skills .description, .reference .company {
+  margin-bottom: 10px;
+}
+
+.experience .date, .education .year {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.experience .description, .education .description {
+  margin-left: 10px;
+}
